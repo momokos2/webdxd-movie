@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=charset="UTF-8">
+	<title>Contact</title>
+	<link href='https://fonts.googleapis.com/css?family=Biryani:400,900' rel='stylesheet' type='text/css'>
+	<link rel ="stylesheet" href="css/font-awesome.css"> 
+	<link rel ="stylesheet" href="css/normalize.css">
+	<link rel ="stylesheet" href="css/style.css">
+</head>
+
+<body class="contact">
+	<nav>
+		<img class="nav-logo" src ="img/icon.png" alt="logo">
+		<ul class="nav-bar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="ticket.html">Ticket</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<form class="contactForm center footerToBottom">
+
+		<h1 class="center">Contact Us</h1>
+
+		<!--general input-->
+		<input type="text" name="name" placeholder="Name">
+		<input type="text" name="Email" placeholder="Email">
+		<input type="text" name="Number" placeholder="Phone Number">
+
+		<!--drop down-->
+		<select>
+			<option value="general-question">General Question</option>
+		</select>
+
+		<!--radio box for gender selection-->
+		<label for="gender">Gender:</label>
+		<br>
+		<input class="inline" type="radio" name="gender" value="male"><label>Male</label>
+		<br>
+		<input class="inline" type="radio" name="gender" value="female"><label>Female</label>
+		<br>
+		<input class="inline" type="radio" name="gender" value="other"><label>Other</label>
+		<br>
+
+		<!--message box-->
+		<textarea placeholder="Message" name="Message"></textarea>
+
+		<!--check box-->
+		<input class="inline" type="checkbox" name="consent">I have red terms and conditions.<label for="consent"></label>
+
+		<!--button-->
+		<input class="primaryBtn" type="submit" value="send">
+	
+	</form>
+
+	<footer>
+	<ul class="footer center">
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Movie News</a></li>
+			<li><a href="#">Term of Use</a></li>
+	</ul>
+	</footer>
+
+</body>
+</html>
